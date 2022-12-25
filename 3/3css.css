@@ -1,0 +1,44 @@
+body{
+  background-color: black;
+}
+.text,#result {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-left: 0px;
+  border-right: 0px;
+  background: black;
+  border-top: 0px;
+  color: rgb(227, 184, 115);
+  outline: none;
+  padding: 10px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.stringbut {
+  background: black;
+  border-bottom: 1px solid #ffffff;
+  color: rgba(227, 184, 115, 0.5);
+  border-radius: 3px;
+  padding: 10px;
+}
+button {
+  background-color: #E3B873;
+  width: 177px;
+  height: 30px;
+  border: 1px solid #E3B874;
+  border-radius: 3px;
+  color: white;
+  margin: 8px;
+}
+.card {
+  width: 200px;
+  margin: 20px;
+}
+.card-image {
+  display: block;
+  width: 200px;
+  height: 150px;
+}
